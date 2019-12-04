@@ -1,0 +1,12 @@
+name: iqtree
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - iqtree=1.6.12=he513fc3_0
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - zlib=1.2.11=h7b6447c_3
+prefix: /vortexfs1/home/eskoog/.conda/envs/iqtree
+

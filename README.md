@@ -14,39 +14,41 @@ This paper dives into the TARA Oceans meta-data and recovers several different n
 
 Inside this directory are two jupyter notebooks:
 	1. Bubble_map.ipynb
+		Bubble_map.ipynb contains the python code needed to make the third figure. All of the data from that code can be found in data/fig3.
 	2. Final-comparison.ipynb
-Bubble_map.ipynb contains the python code needed to make the third figure. All of the data from that code can be found in data/fig3.
-final-comparison.ipynb describes the results obtained from this project and its comparisons to the published figures.
+		final-comparison.ipynb describes the results obtained from this project and its comparisons to the published figures.
 
 ### Envs
 
-Inside this directory the .yaml files for the conda environments used in this project.
+#### Inside this directory the .yaml files for the conda environments used in this project.
 	1. TOSU.yml:
 This environment was created and used to make figure 3. The name "TOSU" stands for The Ohio State University. It was created in a time where my python code wasn't working and my environments kept giving me errors. Finally, this was the one that worked.
-	2. iluminia-utils.yml
+	2. iluminia-utils.yml:
 For quality filtering of raw reads, we used ilumina-utils to produce configuration files from the samples.txt which generated .ini files. These were then quality filtered.
-	3. megahit.yml
+	3. megahit.yml:
 Environment used for megahit in order to coassemble each metagenomic dataset.
-	4. anvio5.yml 
+	4. anvio5.yml:
 We used anvio5 to simplify deflines for the FASTA files, generate contig databases for each metagenomic set, identify CORE genes, import taxanomy, process BAM files, merge profiles and bin MAGS. We also used it to ultimately visualize our data.
-	5. anvio-6.yml
+	5. anvio-6.yml:
 Originally we proposed to analyze and reproduce figures using the latest ANVIO. However, when it came to automated binnnig with concoct, we learned that ANVIO 6 is no longer compatible with concoct, so we couldn't get to the last step and visualize our data. Therefore we resorted to using anvio-5. We tried importing anvio-6 databases into anvio-5 and then binning with concoct, but the database created with anvio-6 was incompatible with anvio-5.
-	6. bowtie2.yml
+	6. bowtie2.yml:
 We used bowtie2 to map shortreads from the metagenomes onto the scaffolds.
-	7. samtools.yml
+	7. samtools.yml:
 We created BAM files from the SAM files created by bowtie2. There were sorted and indexed by samtools.
-	8. clustalw.yml
+	8. clustalw.yml:
 This env was used to align the nifD and nifH genes in each protein extracted from NCBI. 
-	9. iqtree.yml
+	9. iqtree.yml:
 This environment was used to infer the phylogenetic trees by maximum likelihood, using the WAG model as the paper did.
-	10. kaiju.yml
+	10. kaiju.yml:
 Initially kaiju was used for taxonomic classification of the MAGS.
 
 ### Data
 
 1. Figure 1
-	-NON_REDUNDANT_MAGs_original
+	1. Figure1_from_paper
 		Inside this folder all the fasta files from the TARA oceans project used can be found. The .txt files (phylogeny4.txt and external-genomes2.txt) are files utilized in the ANVIO pipeline, they are commented in the scripts folder.
+	2. Figure1_unnecessary_figure
+		Data for this figure can be found in trash/data/fig1 it will be all the folders in here.
 2. Figure 2
 	-Step 1 For Build Database
 		Contains the genome.txt file and the MAGS FASTA file for the different ocean environments.
@@ -62,20 +64,27 @@ Initially kaiju was used for taxonomic classification of the MAGS.
 		Final phylogenetic tree images, contains our results and those from the authors.
 3. Figure 3
 	This folder contains the .csv file obtained from the Meren website. In this file the HBD data and latitude, longitude are found. From this folder the .png files were created using the jupyter notebook code found in (Bubble_map.ipynb). Comparison2.png and comparison1.png 
-4. Trash
-	Inside this folder are all the lost children that we either used but didn't need to or found no use for them at all.
 
 ### Logs
-
+Logs were deleted after tryinig to reset our git push. However, this is what they would look like if they still existed.
 1. Figure 1
-	-anvi-gen-phylogenomic-tree.log
-		Log file for the second to last step to create the phylogenomic tree.
-	-anvi-get-sequences-for-hmm-hits.log
-		Log file for the second step in the anvio pipeline.
-	-anvi-script-FASTA-to-contigs-db.log
-		Log file for the first step in the anvio pipeline.
+	1. Figure1_from_paper
+		Step1
+			-anvi-script-FASTA-to-contigs-db.log
+				Log file for the first step in the anvio pipeline.	
+		Step2
+			-anvi-get-sequences-for-hmm-hits.log
+				Log file for the second step in the anvio pipeline.
+		Step3
+			-anvi-gen-phylogenomic-tree.log
+				Log file for the second to last step to create the phylogenomic tree.
+		Step4
+			-anvi-interactive.log
+				Log file to visualize tree
+	2. Figure1_unnecessary_figures
+		Log files for the ANVIO6 pipeline.
 2. Figure 2
-	-Step 1 Build Database
+	-Step 1 Make Database
 		Log file for the first step of building the phylogenetic tree. 
 	-Step 2 Blast for Proteins in MAGS
 		Blast log file for MAGS from each ocean environment.
@@ -87,35 +96,48 @@ Initially kaiju was used for taxonomic classification of the MAGS.
 ### Scripts
 
 1. Figure 1
-	-anvi-script-FASTA-to-contigs-db.sh
-		Generates a contigs databases from the fasta files of the MAGS. This step is needed to reporoduce fig1.
-	-anvi-get-sequences-for-hmm-hits.sh
-		Utilizes an HMM profile to concatenate genes of interest.
-	-anvi-gen-phylogenomic-tree.sh
-		Creates a newick tree to show the relationshps between the genes of interest.
+	a. Figure1_from_paper
+		Step1
+			-anvi-script-FASTA-to-contigs-db.sh
+				Generates a contigs databases from the fasta files of the MAGS. This step is needed to reporoduce fig1.
+		Step2
+			-anvi-get-sequences-for-hmm-hits.sh
+				Utilizes an HMM profile to concatenate genes of interest.
+		Step3
+			-anvi-gen-phylogenomic-tree.sh
+				Creates a newick tree to show the relationshps between the genes of interest.
+		Step4
+			-anvi-interactive.sh
+				Script to visualize phylogenomic tree.
+	b. Figure1_unnecessary_figures
+		All scripts in this directory were used for ANVIO6 to recreate figure 1. We had to resort to using ANVIO5 because concoct was not compatible with the latest anvio version. Therefore these figures aren't the ones we officially use for our comparison.
 2. Figure 2
-	-Step 1 Build Database
+	-Step 1 Make Database
 		Slurm script for building the database for the genes of interest (nifD, nifH). Scripts are well commented.
 	-Step 2 Blast for Proteins in MAGS
 		Slurm script blasts for the nifD and nifH protein sequences in the MAGS for the different ocean environments. Scripts in this folder are well commented and easy to follow.
 	-Step 3 Align
 		Script for aligning the FASTA amino acid sequences taken from the NCBi database and the HBDs.
-	-Step 4 Build Tree
+	-Step 4 Create Tree
 		Script for both the nifD and nifH phylogenetic tree.
 
 ### Output
+#### All output files were deleted when the git catastrophe occur. They can be found in the recovered folder
 
 1. Figure 1
-	-Step 1
-		Outputs for the first command where a contigs database was created from the MAG files.
-	-Step 2
-		Output for HMM hits for the nifH and nifD genes
-	-Step 3
-		Output for the phylogenomic tree created.
-	-Step 4
-		File used to view the phylogenomic tree in interactive ANVIO
-	-fig1_published.png
-	-fig1_ED.png
+	1. Figure1_from_paper
+		-Step 1
+			Outputs for the first command where a contigs database was created from the MAG files.
+		-Step 2
+			Output for HMM hits for the nifH and nifD genes
+		-Step 3
+			Output for the phylogenomic tree created.
+		-Step 4
+			File used to view the phylogenomic tree in interactive ANVIO
+		-fig1_published.png
+		-fig1_ED.png
+	2. Figure1_unnecessary_figures
+		Output files from the ANVIO6 pipeline not used for the final figure.
 2. Figure 2
 	-Step 1 Build Database
 		Output files for the different ocean metagenomes for the first step, building the database.
@@ -125,3 +147,13 @@ Initially kaiju was used for taxonomic classification of the MAGS.
 		Output files containing the info. from the alignment step of both nifH and nifD sequences.
 	-Step 4 Build Tree
 		Final output file for the tree building step. Both out files for nifD and nifH are found here.
+	-Step 5
+		Final image comparisons between our results and the published results.
+3. Figure 3
+	-Output images created using the python script
+
+### Other directories
+1. Recovered: These are the recovered files that were deleted using git reset --hard. They have very weird names and it's probably impossible to figure out which is which without opening them. But thought it would be reasonable to include them in the repo.
+2. Trash:
+	Inside this folder are all the lost children that we either used but didn't need to or found no use for them at all.
+

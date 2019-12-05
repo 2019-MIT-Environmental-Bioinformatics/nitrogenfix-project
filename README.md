@@ -50,17 +50,17 @@ Inside this directory are two jupyter notebooks:
 	2. Figure1_unnecessary_figure
 		Data for this figure can be found in trash/data/fig1 it will be all the folders in here.
 2. Figure 2
-	-Step 1 Build Database
+	1. Step 1 Build Database
 		Contains the genome.txt file and the MAGS FASTA file for the different ocean environments.
-	-Step 1 Results from Building Database
+	2. Step 1 Results from Building Database
 		Contains the results from the build database command. These results will be used downstream.
-	-Step 2 for Blasting Proteins in MAGS
+	3. Step 2 for Blasting Proteins in MAGS
 		Contains the fasta files for the nifH and nifD proteins
-	-Step 2 Results from Blasting
+	4. Step 2 Results from Blasting
 		Results from blasting the nifH and nifD proteins in the MAGS
-	-Step 3 Align
+	5. Step 3 Align
 		Data for aligning the nifH and nifD sequences
-	-Step 4 Results Tree
+	6. Step 4 Results Tree
 		Final phylogenetic tree images, contains our results and those from the authors.
 3. Figure 3
 	This folder contains the .csv file obtained from the Meren website. In this file the HBD data and latitude, longitude are found. From this folder the .png files were created using the jupyter notebook code found in (Bubble_map.ipynb). Comparison2.png and comparison1.png 
@@ -69,28 +69,28 @@ Inside this directory are two jupyter notebooks:
 Logs were deleted after tryinig to reset our git push. However, this is what they would look like if they still existed.
 1. Figure 1
 	1. Figure1_from_paper
-		Step1
+		1. Step1
 			-anvi-script-FASTA-to-contigs-db.log
 				Log file for the first step in the anvio pipeline.	
-		Step2
+		2. Step2
 			-anvi-get-sequences-for-hmm-hits.log
 				Log file for the second step in the anvio pipeline.
-		Step3
+		3. Step3
 			-anvi-gen-phylogenomic-tree.log
 				Log file for the second to last step to create the phylogenomic tree.
-		Step4
+		4. Step4
 			-anvi-interactive.log
 				Log file to visualize tree
 	2. Figure1_unnecessary_figures
 		Log files for the ANVIO6 pipeline.
 2. Figure 2
-	-Step 1 Make Database
+	1. Step 1 Make Database
 		Log file for the first step of building the phylogenetic tree. 
-	-Step 2 Blast for Proteins in MAGS
+	2. Step 2 Blast for Proteins in MAGS
 		Blast log file for MAGS from each ocean environment.
-	-Step 3 Align
+	3. Step 3 Align
 		Log file for the nifD nifH alignment.
-	-Step 4 Build Tree
+	4. Step 4 Build Tree
 		Final log file for building the phylogenetic tree.
 
 ### Scripts
@@ -112,13 +112,13 @@ Logs were deleted after tryinig to reset our git push. However, this is what the
 	b. Figure1_unnecessary_figures
 		All scripts in this directory were used for ANVIO6 to recreate figure 1. We had to resort to using ANVIO5 because concoct was not compatible with the latest anvio version. Therefore these figures aren't the ones we officially use for our comparison.
 2. Figure 2
-	-Step 1 Make Database
+	1. Step 1 Make Database
 		Slurm script for building the database for the genes of interest (nifD, nifH). Scripts are well commented.
-	-Step 2 Blast for Proteins in MAGS
+	2. Step 2 Blast for Proteins in MAGS
 		Slurm script blasts for the nifD and nifH protein sequences in the MAGS for the different ocean environments. Scripts in this folder are well commented and easy to follow.
-	-Step 3 Align
+	1. Step 3 Align
 		Script for aligning the FASTA amino acid sequences taken from the NCBi database and the HBDs.
-	-Step 4 Create Tree
+	2. Step 4 Create Tree
 		Script for both the nifD and nifH phylogenetic tree.
 
 ### Output
@@ -126,31 +126,31 @@ Logs were deleted after tryinig to reset our git push. However, this is what the
 
 1. Figure 1
 	1. Figure1_from_paper
-		-Step 1
+		1. Step 1
 			Outputs for the first command where a contigs database was created from the MAG files.
-		-Step 2
+		2. Step 2
 			Output for HMM hits for the nifH and nifD genes
-		-Step 3
+		3. Step 3
 			Output for the phylogenomic tree created.
-		-Step 4
+		4. Step 4
 			File used to view the phylogenomic tree in interactive ANVIO
-		-fig1_published.png
-		-fig1_ED.png
+		5. fig1_published.png
+		6. fig1_ED.png
 	2. Figure1_unnecessary_figures
 		Output files from the ANVIO6 pipeline not used for the final figure.
 2. Figure 2
-	-Step 1 Build Database
+	1. Step 1 Build Database
 		Output files for the different ocean metagenomes for the first step, building the database.
-	-Step 2 Blast for Proteins in MAGS
+	2. Step 2 Blast for Proteins in MAGS
 		Output files for the second step which constitues the blast for the nifD nifH proteins for the MAGS for the 8 different environments.
-	-Step 3 Align
+	3. Step 3 Align
 		Output files containing the info. from the alignment step of both nifH and nifD sequences.
-	-Step 4 Build Tree
+	4. Step 4 Build Tree
 		Final output file for the tree building step. Both out files for nifD and nifH are found here.
-	-Step 5
+	5. Step 5
 		Final image comparisons between our results and the published results.
 3. Figure 3
-	-Output images created using the python script
+	1. Output images created using the python script
 
 ### Other directories
 1. Recovered: These are the recovered files that were deleted using git reset --hard. They have very weird names and it's probably impossible to figure out which is which without opening them. But thought it would be reasonable to include them in the repo.

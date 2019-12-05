@@ -22,25 +22,25 @@ Inside this directory are two jupyter notebooks:
 
 #### Inside this directory the .yaml files for the conda environments used in this project.
 	1. TOSU.yml:
-This environment was created and used to make figure 3. The name "TOSU" stands for The Ohio State University. It was created in a time where my python code wasn't working and my environments kept giving me errors. Finally, this was the one that worked.
+		This environment was created and used to make figure 3. The name "TOSU" stands for The Ohio State University. It was created in a time where my python code wasn't working and my environments kept giving me errors. Finally, this was the one that worked.
 	2. iluminia-utils.yml:
-For quality filtering of raw reads, we used ilumina-utils to produce configuration files from the samples.txt which generated .ini files. These were then quality filtered.
+		For quality filtering of raw reads, we used ilumina-utils to produce configuration files from the samples.txt which generated .ini files. These were then quality filtered.
 	3. megahit.yml:
-Environment used for megahit in order to coassemble each metagenomic dataset.
+		Environment used for megahit in order to coassemble each metagenomic dataset.
 	4. anvio5.yml:
-We used anvio5 to simplify deflines for the FASTA files, generate contig databases for each metagenomic set, identify CORE genes, import taxanomy, process BAM files, merge profiles and bin MAGS. We also used it to ultimately visualize our data.
+		We used anvio5 to simplify deflines for the FASTA files, generate contig databases for each metagenomic set, identify CORE genes, import taxanomy, process BAM files, merge profiles and bin MAGS. We also used it to ultimately visualize our data.
 	5. anvio-6.yml:
-Originally we proposed to analyze and reproduce figures using the latest ANVIO. However, when it came to automated binnnig with concoct, we learned that ANVIO 6 is no longer compatible with concoct, so we couldn't get to the last step and visualize our data. Therefore we resorted to using anvio-5. We tried importing anvio-6 databases into anvio-5 and then binning with concoct, but the database created with anvio-6 was incompatible with anvio-5.
+		Originally we proposed to analyze and reproduce figures using the latest ANVIO. However, when it came to automated binnnig with concoct, we learned that ANVIO 6 is no longer compatible with concoct, so we couldn't get to the last step and visualize our data. Therefore we resorted to using anvio-5. We tried importing anvio-6 databases into anvio-5 and then binning with concoct, but the database created with anvio-6 was incompatible with anvio-5.
 	6. bowtie2.yml:
-We used bowtie2 to map shortreads from the metagenomes onto the scaffolds.
+		We used bowtie2 to map shortreads from the metagenomes onto the scaffolds.
 	7. samtools.yml:
-We created BAM files from the SAM files created by bowtie2. There were sorted and indexed by samtools.
+		We created BAM files from the SAM files created by bowtie2. There were sorted and indexed by samtools.
 	8. clustalw.yml:
-This env was used to align the nifD and nifH genes in each protein extracted from NCBI. 
+		This env was used to align the nifD and nifH genes in each protein extracted from NCBI. 
 	9. iqtree.yml:
-This environment was used to infer the phylogenetic trees by maximum likelihood, using the WAG model as the paper did.
+		This environment was used to infer the phylogenetic trees by maximum likelihood, using the WAG model as the paper did.
 	10. kaiju.yml:
-Initially kaiju was used for taxonomic classification of the MAGS.
+		Initially kaiju was used for taxonomic classification of the MAGS.
 
 ### Data
 

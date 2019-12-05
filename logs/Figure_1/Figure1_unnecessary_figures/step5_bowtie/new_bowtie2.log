@@ -1,0 +1,31 @@
+185051872 reads; of these:
+  185051872 (100.00%) were paired; of these:
+    177983720 (96.18%) aligned concordantly 0 times
+    7031945 (3.80%) aligned concordantly exactly 1 time
+    36207 (0.02%) aligned concordantly >1 times
+    ----
+    177983720 pairs aligned concordantly 0 times; of these:
+      21800 (0.01%) aligned discordantly 1 time
+    ----
+    177961920 pairs aligned 0 times concordantly or discordantly; of these:
+      355923840 mates make up the pairs; of these:
+        355578070 (99.90%) aligned 0 times
+        321069 (0.09%) aligned exactly 1 time
+        24701 (0.01%) aligned >1 times
+3.92% overall alignment rate
+65438469 reads; of these:
+  65438469 (100.00%) were paired; of these:
+    62470130 (95.46%) aligned concordantly 0 times
+    2938718 (4.49%) aligned concordantly exactly 1 time
+    29621 (0.05%) aligned concordantly >1 times
+    ----
+    62470130 pairs aligned concordantly 0 times; of these:
+      28110 (0.04%) aligned discordantly 1 time
+    ----
+    62442020 pairs aligned 0 times concordantly or discordantly; of these:
+      124884040 mates make up the pairs; of these:
+        124701445 (99.85%) aligned 0 times
+        169145 (0.14%) aligned exactly 1 time
+        13450 (0.01%) aligned >1 times
+4.72% overall alignment rate
+slurmstepd: error: *** JOB 495676 ON pn055 CANCELLED AT 2019-12-02T13:04:20 ***

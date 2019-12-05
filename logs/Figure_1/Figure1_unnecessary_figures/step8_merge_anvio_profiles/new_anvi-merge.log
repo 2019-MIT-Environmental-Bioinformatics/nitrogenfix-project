@@ -1,0 +1,174 @@
+
+WARNING
+===============================================
+Pleae read carefuly. You sent 8 profile databases to anvi'o merger to be merged.
+However, not all of them were single, non-blank anvi'o profiles. Anvi'o removed
+1 of them, and will merge only the remaining 7. At the end of this warning you
+will find a list of paths to those databases anvi'o excluded from merging. If
+you are not happy with that, please carefully examine what went wrong. Here are
+all the paths for excluded databases: 'new_ANE-MERGED/PROFILE.db'.
+
+                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Reading self tables of each single profile db] ...                                                 [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Layer additional data ops] ...                                                                     [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional keys and data for layers] ...                                                [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional data for layers] ...                                                         [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional keys and data for layers] ...                                                [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional data for layers] ...                                                         [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional keys and data for layers] ...                                                [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional data for layers] ...                                                         [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional keys and data for layers] ...                                                [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional data for layers] ...                                                         [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional keys and data for layers] ...                                                [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional data for layers] ...                                                         [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional keys and data for layers] ...                                                [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional data for layers] ...                                                         [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional keys and data for layers] ...                                                [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:14:44 Recovering additional data for layers] ...                                                         [0m                                                                                                                        
+WARNING
+===============================================
+It seems you have more than 20,000 splits in your samples to be merged. This is
+the soft limit for anvi'o to attempt to create a hierarchical clustering of your
+splits (which becomes the center tree in all anvi'o displays). If you want a
+hierarchical clustering to be done anyway, please see the flag `--enforce-
+hierarchical-clustering`. But more importantly, please take a look at the anvi'o
+tutorial to make sure you know your better options to analyze large metagenomic
+datasets with anvi'o.
+
+
+WARNING
+===============================================
+Anvi'o just set the normalization values for each sample based on how many
+mapped reads they contained. This information will only be used to calculate the
+normalized coverage table. Here are those values: NEW_ANE_004_05M: 0.73,
+NEW_ANE_004_40M: 0.50, NEW_ANE_150_05M: 0.65, NEW_ANE_150_40M: 0.58,
+NEW_ANE_151_05M: 0.68, NEW_ANE_151_80M: 0.61, NEW_ANE_152_05M: 1.00
+
+profiler_version .............................: 31
+output_dir ...................................: /vortexfs1/omics/env-bio/collaboration/nitrification-project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED
+sample_id ....................................: SAMPLES_MERGED
+description ..................................: None
+profile_db ...................................: /vortexfs1/omics/env-bio/collaboration/nitrification-project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED/PROFILE.db
+merged .......................................: True
+contigs_db_hash ..............................: hash9f6ad397
+num_runs_processed ...........................: 7
+merged_sample_ids ............................: NEW_ANE_004_05M, NEW_ANE_004_40M, NEW_ANE_150_05M, NEW_ANE_150_40M, NEW_ANE_151_05M, NEW_ANE_151_80M, NEW_ANE_152_05M
+Common layer additional data keys ............: default
+total_reads_mapped ...........................: 7728202, 11269027, 8660407, 9753844, 8305770, 9362881, 5666411
+cmd_line .....................................: /vortexfs1/home/eskoog/.conda/envs/anvio5/bin/anvi-merge new_ANE_004_05M/PROFILE.db new_ANE_004_40M/PROFILE.db new_ANE_150_05M/PROFILE.db new_ANE_150_40M/PROFILE.db new_ANE_151_05M/PROFILE.db new_ANE_151_80M/PROFILE.db new_ANE_152_05M/PROFILE.db new_ANE-MERGED/PROFILE.db -o SAMPLES-MERGED -c new_ANE-CONTIGS.db
+clustering_performed .........................: False
+                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:14:46 Merging split coverage data] new_ANE_004_05M/PROFILE.db                                            [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:14:46 Merging split coverage data] new_ANE_004_40M/PROFILE.db                                            [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:14:46 Merging split coverage data] new_ANE_150_05M/PROFILE.db                                            [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:14:46 Merging split coverage data] new_ANE_150_40M/PROFILE.db                                            [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:14:46 Merging split coverage data] new_ANE_151_05M/PROFILE.db                                            [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:14:46 Merging split coverage data] new_ANE_151_80M/PROFILE.db                                            [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:14:46 Merging split coverage data] new_ANE_152_05M/PROFILE.db                                            [0m                                                                                                                        
+WARNING
+===============================================
+SNVs were not profiled, variable nt positions tables will be empty in the merged
+profile database.
+
+
+WARNING
+===============================================
+Codon frequencies were not profiled, hence, these tables will be empty in the
+merged profile database.
+
+                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing std_coverage for contigs ...                               [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing mean_coverage for contigs ...                              [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing mean_coverage_Q2Q3 for contigs ...                         [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing max_normalized_ratio for contigs ...                       [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing relative_abundance for contigs ...                         [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing detection for contigs ...                                  [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing abundance for contigs ...                                  [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing variability for contigs ...                                [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing std_coverage for splits ...                                [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing mean_coverage for splits ...                               [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing mean_coverage_Q2Q3 for splits ...                          [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing max_normalized_ratio for splits ...                        [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing relative_abundance for splits ...                          [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing detection for splits ...                                   [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing abundance for splits ...                                   [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:15:59 Generating view data tables] Processing variability for splits ...                                 [0m                                                                                                                        
+* Anvi'o hierarchical clustering of contigs...
+
+                                                                                                                        
+* Automatic binning with CONCOCT...
+
+                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:04 Init] accessing the profile database ...                                                           [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:04 Init] accessing the profile database ...                                                           [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:04 Init] computing split lengths ...                                                                  [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:16:05 CONCOCT] Checking the number of samples ...                                                        [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:05 CONCOCT] Checking the number of k-mers ...                                                         [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:05 CONCOCT] Checking the number of contigs to cluster ...                                             [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:05 CONCOCT] Setting up kmer and coverage arrays ...                                                   [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:05 CONCOCT] Joining coverage and composition arrays ...                                               [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:05 CONCOCT] Performing PCA ...                                                                        [0m                                                                                                                        CONCOCT INIT .................................: Complete for 31844 splits
+CONCOCT VGBMM ................................: Requesting 80 clusters
+                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:16:06 VBGMM] Clustering ...                                                                              [0m                                                                                                                        CONCOCT VGBMM ................................: Returning 57 final clusters
+Collections ..................................: The collection "CONCOCT" that describes 31,844 splits and 57 bins has been successfully added to the database at "/vortexfs1/omics/env-bio/collaboration/nitrification-project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED/PROFILE.db". Here is a list of the first 50 bin names in this collection: Bin_30,Bin_45,Bin_12,Bin_44,Bin_26,Bin_46,Bin_9,Bin_14,Bin_35,Bin_54,Bin_32,Bin_56,Bin_15,Bin_51,Bin_40,Bin_8,Bin_33,Bin_10,Bin_24,Bin_27,Bin_49,Bin_23,Bin_34,Bin_52,Bin_47,Bin_50,Bin_29,Bin_36,Bin_43,Bin_20,Bin_22,Bin_25,Bin_48,Bin_11,Bin_53,Bin_39,Bin_38,Bin_31,Bin_16,Bin_37,Bin_41,Bin_42,Bin_13,Bin_28,Bin_21,Bin_2,Bin_3,Bin_19,Bin_6,Bin_1.
+CONCOCT results in db ........................: /vortexfs1/omics/env-bio/collaboration/nitrification-project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED/PROFILE.db
+
+* Additional data and layer orders...
+
+                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Initializing the profile database superclass] Loading split names                                  [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Initializing the profile database superclass] Creating an instance of the profile database         [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Initializing the profile database superclass] Setting profile self data dict                       [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Initializing the profile database superclass] Accessing the auxiliary data file                    [0m                                                                                                                        Auxiliary Data ...............................: Found: /vortexfs1/omics/env-bio/collaboration/nitrification-project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED/AUXILIARY-DATA.db (v. 2)
+Profile Super ................................: Initialized with all 31844 splits: /vortexfs1/omics/env-bio/collaboration/nitrification-project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED/PROFILE.db (v. 31)
+                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Loading views] for std_coverage                                                                    [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Loading views] for mean_coverage                                                                   [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Loading views] for mean_coverage_Q2Q3                                                              [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Loading views] for max_normalized_ratio                                                            [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Loading views] for relative_abundance                                                              [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Loading views] for detection                                                                       [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:41 Loading views] for abundance                                                                       [0m                                                                                                                                                                                                                                                [48;5;6m[38;5;0m[03 Dec 19 10:42:42 Working on layer orders] recovering order for "std_coverage"                                       [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:42 Working on layer orders] recovering order for "mean_coverage"                                      [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:42 Working on layer orders] recovering order for "mean_coverage_Q2Q3"                                 [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:42 Working on layer orders] recovering order for "max_normalized_ratio"                               [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:42 Working on layer orders] recovering order for "relative_abundance"                                 [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:42 Working on layer orders] recovering order for "detection"                                          [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:42 Working on layer orders] recovering order for "abundance"                                          [0m                                                                                                                        [48;5;6m[38;5;0m[03 Dec 19 10:42:42 Working on layer orders] recovering order for "variability"                                        [0m                                                                                                                        
+WARNING
+===============================================
+While anvi'o was trying to generate clusterings of samples based on view data
+available in the merged profile, clustering of some of the essential data
+failed. It is likely not a very big deal, but you shall be the judge of it.
+Anvi'o now proceeds to store layers order information for those view items the
+clustering in fact worked. Here is the list of stuff that failed: 'variability'
+
+
+Layer orders added
+===============================================
+* std_coverage
+* mean_coverage
+* mean_coverage_Q2Q3
+* max_normalized_ratio
+* relative_abundance
+* detection
+* abundance
+
+Data groups added
+===============================================
+* default (w/1 items)
+
+* Happy ☘
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+
+
+
+File/Path Error: The output directory '/vortexfs1/omics/env-bio/collaboration/nitrification-  
+                 project/data/MAGS_fasta/NON_REDUNDANT_MAGs.fa/SAMPLES-MERGED' already exists.
+                 anvio does not like overwriting stuff.                                       
+
+

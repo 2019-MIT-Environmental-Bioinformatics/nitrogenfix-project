@@ -1,0 +1,9 @@
+sample	r1	r2
+ION_48_05M      ERR599138_1.fastq.gz,ERR599019_1.fastq.gz       ERR599138_2.fastq.gz,ERR599019_2.fastq.gz
+IOS_52_05M      ERR599098_1.fastq.gz,ERR599139_1.fastq.gz       ERR599098_2.fastq.gz,ERR599139_2.fastq.gz
+IOS_56_05M      ERR599057_1.fastq.gz    ERR599057_2.fastq.gz
+IOS_57_05M      ERR599058_1.fastq.gz    ERR599058_2.fastq.gz
+IOS_62_05M      ERR599012_1.fastq.gz    ERR599012_2.fastq.gz
+IOS_64_05M      ERR599150_1.fastq.gz    ERR599150_2.fastq.gz
+IOS_65_05M      ERR599146_1.fastq.gz,ERR598979_1.fastq.gz       ERR599146_2.fastq.gz,ERR598979_2.fastq.gz
+

@@ -1,0 +1,10 @@
+sample	r1	r2
+RED_32_05M      ERR599041_1.fastq.gz,ERR599116_1.fastq.gz       ERR599041_2.fastq.gz,ERR599116_2.fastq.gz
+RED_33_05M      ERR599049_1.fastq.gz,ERR599134_1.fastq.gz       ERR599049_2.fastq.gz,ERR599134_2.fastq.gz
+RED_34_05M      ERR598959_1.fastq.gz,ERR598991_1.fastq.gz       ERR598959_2.fastq.gz,ERR598991_2.fastq.gz
+ION_36_05M      ERR599143_1.fastq.gz,ERR598966_1.fastq.gz       ERR599143_2.fastq.gz,ERR598966_2.fastq.gz
+ION_38_05M      ERR599158_1.fastq.gz,ERR599102_1.fastq.gz       ERR599158_2.fastq.gz,ERR599102_2.fastq.gz
+ION_41_05M      ERR599011_1.fastq.gz,ERR599074_1.fastq.gz       ERR599011_2.fastq.gz,ERR599074_2.fastq.gz
+ION_42_05M      ERR599141_1.fastq.gz,ERR599075_1.fastq.gz       ERR599141_2.fastq.gz,ERR599075_2.fastq.gz
+ION_45_05M      ERR599045_1.fastq.gz,ERR599054_1.fastq.gz       ERR599045_2.fastq.gz,ERR599054_2.fastq.gz
+

@@ -1,0 +1,8 @@
+sample	r1	r2
+ANW_141_05M     ERR599029_1.fastq.gz    ERR599029_2.fastq.gz
+ANW_142_05M     ERR599136_1.fastq.gz    ERR599136_2.fastq.gz
+ANW_145_05M     ERR598983_1.fastq.gz    ERR598983_2.fastq.gz
+ANW_146_05M     ERR598968_1.fastq.gz    ERR598968_2.fastq.gz
+ANW_148_05M     ERR599123_1.fastq.gz    ERR599123_2.fastq.gz
+ANW_149_05M     ERR598963_1.fastq.gz    ERR598963_2.fastq.gz
+

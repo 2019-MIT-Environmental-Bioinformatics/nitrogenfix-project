@@ -1,9 +1,9 @@
+data/Figure_1/Figure1_from_paper/step1_create_contig_databases/NON_REDUNDANT_MAGs_RAW
 envs/kaiju.yml
 License
 README2.md
-data/Figure_1/
 output/
 recovered/
 trash/
 logs/
-data/Figure_2/
+data/Figure_2/step1_make_database

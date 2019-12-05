@@ -1,0 +1,7 @@
+sample	r1	r2
+PON_132_05M     ERR599142_1.fastq.gz    ERR599142_2.fastq.gz
+PON_133_05M     ERR599052_1.fastq.gz    ERR599052_2.fastq.gz
+PON_137_05M     ERR598989_1.fastq.gz    ERR598989_2.fastq.gz
+PON_138_05M     ERR599030_1.fastq.gz    ERR599030_2.fastq.gz
+PON_140_05M     ERR599162_1.fastq.gz    ERR599162_2.fastq.gz
+

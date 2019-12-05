@@ -1,0 +1,8 @@
+sample	r1	r2
+ASW_78_05M      ERR599022_1.fastq.gz,ERR599006_1.fastq.gz       ERR599022_2.fastq.gz,ERR599006_2.fastq.gz
+ASW_82_05M      ERR599035_1.fastq.gz,ERR599009_1.fastq.gz       ERR599035_2.fastq.gz,ERR599009_2.fastq.gz
+ANE_004_05M     ERR599003_1.fastq.gz,ERR598955_1.fastq.gz       ERR599003_2.fastq.gz,ERR598955_2.fastq.gz
+ANE_150_05M     ERR599170_1.fastq.gz    ERR599170_2.fastq.gz
+ANE_151_05M     ERR598976_1.fastq.gz    ERR598976_2.fastq.gz
+ANE_152_05M     ERR599078_1.fastq.gz    ERR599078_2.fastq.gz
+

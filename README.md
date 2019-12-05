@@ -50,7 +50,7 @@ Initially kaiju was used for taxonomic classification of the MAGS.
 	2. Figure1_unnecessary_figure
 		Data for this figure can be found in trash/data/fig1 it will be all the folders in here.
 2. Figure 2
-	-Step 1 For Build Database
+	-Step 1 Build Database
 		Contains the genome.txt file and the MAGS FASTA file for the different ocean environments.
 	-Step 1 Results from Building Database
 		Contains the results from the build database command. These results will be used downstream.

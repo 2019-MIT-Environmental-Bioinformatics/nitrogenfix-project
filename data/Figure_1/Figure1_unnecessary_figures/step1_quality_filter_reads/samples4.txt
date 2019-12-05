@@ -1,0 +1,8 @@
+sample	r1	r2
+ASE_66_05M      ERR599173_1.fastq.gz,ERR598973_1.fastq.gz,ERR599068_1.fastq.gz  ERR599173_2.fastq.gz,ERR598973_2.fastq.gz,ERR599068_2.fastq.gz
+ASE_67_05M      ERR599144_1.fastq.gz,ERR598994_1.fastq.gz       ERR599144_2.fastq.gz,ERR598994_2.fastq.gz
+ASE_68_05M      ERR599129_1.fastq.gz,ERR599171_1.fastq.gz,ERR599174_1.fastq.gz  ERR599129_2.fastq.gz,ERR599171_2.fastq.gz,ERR599174_2.fastq.gz
+ASE_70_05M      ERR599165_1.fastq.gz,ERR599135_1.fastq.gz       ERR599165_2.fastq.gz,ERR599135_2.fastq.gz
+ASW_72_05M      ERR599105_1.fastq.gz,ERR598984_1.fastq.gz       ERR599105_2.fastq.gz,ERR598984_2.fastq.gz
+ASW_76_05M      ERR599010_1.fastq.gz,ERR599126_1.fastq.gz       ERR599010_2.fastq.gz,ERR599126_2.fastq.gz
+

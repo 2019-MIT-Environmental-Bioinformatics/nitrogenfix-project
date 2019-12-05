@@ -1,0 +1,7 @@
+sample	r1	r2
+PSE_93_05M      ERR599064_1.fastq.gz    ERR599064_2.fastq.gz
+PSE_94_05M      ERR599050_1.fastq.gz    ERR599050_2.fastq.gz
+PSE_96_05M      ERR598967_1.fastq.gz    ERR598967_2.fastq.gz
+PSE_98_05M      ERR599093_1.fastq.gz,ERR599120_1.fastq.gz       ERR599093_2.fastq.gz,ERR599120_2.fastq.gz
+PSE_99_05M      ERR599024_1.fastq.gz    ERR599024_2.fastq.gz
+

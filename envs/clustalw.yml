@@ -1,0 +1,8 @@
+name: clustalw
+channels:
+  - biobuilds
+  - defaults
+dependencies:
+  - clustalw=2.1=1
+prefix: /vortexfs1/home/eskoog/.conda/envs/clustalw
+

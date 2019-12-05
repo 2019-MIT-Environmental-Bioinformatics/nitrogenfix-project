@@ -1,0 +1,110 @@
+TBLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ANE.fa
+           31,135 sequences; 209,836,851 total letters
+
+
+
+Query= WP_013323682.1 nitrogenase molybdenum-iron protein alpha chain
+[Gloeothece verrucosa]
+
+Length=476
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  c_000000008932                                                      33.9    1.7  
+  c_000000001822                                                      32.0    6.8  
+  c_000000008069                                                      31.6    8.8  
+  c_000000005745                                                      31.6    9.9  
+
+
+> c_000000008932
+Length=10616
+
+ Score = 33.9 bits (76),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 40/179 (22%), Positives = 82/179 (46%), Gaps = 25/179 (14%)
+ Frame = -1
+
+Query  279   RHMEEKYGIPWFEYNFFGPTKIAASLRAIADLFDDTIRENAEKVIAKYQKQTQDVLDKYL  338
+             R +E+++G P+ +    G       L  ++DL     + N++K   +    ++ +   Y 
+Sbjct  8330  RFLEKEFGQPYTKNVPIGMGATTDFLSEVSDL-SGLGKMNSDKTRLRADWWSRSIDSTYF  8154
+
+Query  339   SRLQGKKVMLMVGGLRPRHVVPAFR----DLGMEIIGTGYEFAHGDDYKRTTDYI-ED--  391
+             +   GK+V +        HV  + R    ++G E++G G    +  ++ R+   + ED  
+Sbjct  8153  T---GKRVFIFGDAT---HVKTSARIAKEEMGFEVVGIG---CYNREFARSIRSLGEDLG  8001
+
+Query  392   -ATLVYDDVTAYEFEKFVTELKPDLVASGVKEKYVFQKMGLPFRQMHSWDYSGPYHGYD  449
+              A LV +D    E E  +  L+P+L+     E+++ +++G+P   +     S P+H  D
+Sbjct  8000  VAALVTEDY--LEVEAAIQNLQPELILGTQMERHIGKRLGIPCAVI-----SAPFHVQD  7845
+
+
+> c_000000001822
+Length=3921
+
+ Score = 32.0 bits (71),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 23/82 (28%), Positives = 40/82 (49%), Gaps = 2/82 (2%)
+ Frame = -3
+
+Query  336  KYLSRLQGKKVMLMVGG-LRPRHVVPAFRDLGMEIIGTGYEFAHGDDYKRTTDYIEDATL  394
+            K+ S    KK+++  GG   P H+V    D+G E+     ++    D  R TD      +
+Sbjct  643  KFRSSGLNKKILISGGGGFIPSHLVRRLVDIGAEV-SVLVKYNSIVDNVRLTDVWNKINV  467
+
+Query  395  VYDDVTAYEFEKFVTELKPDLV  416
+            +  D+   +  + V+ELKPD++
+Sbjct  466  IECDIRNIDSLRQVSELKPDII  401
+
+
+> c_000000008069
+Length=16701
+
+ Score = 31.6 bits (70),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 24/52 (46%), Gaps = 4/52 (8%)
+ Frame = +3
+
+Query  189    LGHHIANDAVRDWVFSRT----DAEEIETTPYDVAIIGDYNIGGDAWSSRIL  236
+              L H    + VR W F  T    D E +E T Y  A+ G    GGD W+  I+
+Sbjct  15909  LTHTSEANTVRSWTFEWTAPAADDENVEMTIYGNAVNGGAGSGGDYWNQAIV  16064
+
+
+> c_000000005745
+Length=7552
+
+ Score = 31.6 bits (70),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 18/37 (49%), Positives = 22/37 (59%), Gaps = 2/37 (5%)
+ Frame = +2
+
+Query  129   KIMTEIETLFPLNNGVSIQSECPIGLIGDDIEAVARK  165
+             KIM  IE +FPL   V+ Q +  IG  G DIE +A K
+Sbjct  3455  KIMNIIEKVFPLTTNVTSQGKLQIG--GCDIETLATK  3559
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23802713098
+
+
+  Database: ANE.fa
+    Posted date:  Dec 2, 2019  2:20 AM
+  Number of letters in database: 209,836,851
+  Number of sequences in database:  31,135
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

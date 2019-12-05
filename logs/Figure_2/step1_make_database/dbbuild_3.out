@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 12/04/2019 16:37:20
+New DB name:   /nobackup1c/users/skoog/transfer4/ASE.fa
+New DB title:  ASE.fa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /nobackup1c/users/skoog/transfer4/ASE.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 18398 sequences in 3.29645 seconds.

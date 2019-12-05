@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 12/04/2019 16:37:21
+New DB name:   /nobackup1c/users/skoog/transfer4/IOS.fa
+New DB title:  IOS.fa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /nobackup1c/users/skoog/transfer4/IOS.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 23988 sequences in 3.92087 seconds.

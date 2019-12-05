@@ -1,0 +1,227 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    pn055 (AVX512, FMA3, 187 GB RAM)
+Command: iqtree -s output_clustalw_align_nifD_seqs -m MFP -mset WAG -alrt 1000 -bb 1000 -nt AUTO
+Seed:    190953 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Dec  2 14:48:00 2019
+Kernel:  AVX+FMA - auto-detect threads (36 CPU cores detected)
+
+Reading alignment file output_clustalw_align_nifD_seqs ... Clustal format detected
+Alignment most likely contains protein sequences
+Alignment has 59 sequences with 1068 columns, 887 distinct patterns
+418 parsimony-informative, 465 singleton sites, 185 constant sites
+                   Gap/Ambiguity  Composition  p-value
+   1  WP_015850330.1      49.06%    passed     99.91%
+   2  WP_027723055.1      48.97%    passed     99.98%
+   3  WP_013513971.1      48.97%    passed     99.17%
+   4  WP_015416175.1      48.97%    passed     99.53%
+   5  WP_071544379.1      48.97%    passed     99.46%
+   6  WP_066802114.1      48.97%    passed     98.53%
+   7  WP_020001629.1      48.97%    passed     93.81%
+   8  WP_031482846.1      48.88%    passed     99.74%
+   9  WP_027177789.1      48.97%    passed     98.20%
+  10  WP_014321932.1      48.97%    passed     99.67%
+  11  WP_054649226.1      48.97%    passed     99.85%
+  12  WP_018124918.1      48.97%    passed     99.99%
+  13  WP_004074849.1      49.06%    passed     94.00%
+  14  WP_035237767.1      49.16%    passed     98.88%
+  15  WP_022667734.1      48.69%    passed     79.51%
+  16  OGR23269.1          49.53%    passed     99.26%
+  17  WP_015902871.1      48.13%    passed     95.13%
+  18  PSW                 10.02%    passed     86.60%
+  19  WP_011697881.1      48.41%    passed     69.46%
+  20  WP_041284093.1      49.16%    passed     98.01%
+  21  WP_027358824.1      49.81%    passed     97.86%
+  22  WP_092215982.1      48.60%    passed     98.36%
+  23  WP_069897284.1      49.06%    passed     48.87%
+  24  WP_013255566.1      49.44%    passed     81.46%
+  25  ARCHAEAAFC98916.1   50.09%    passed     40.62%
+  26  WP_045825324.1      53.84%    passed     99.93%
+  27  WP_015817787.1      53.84%    passed     99.90%
+  28  WP_012698832.1      53.93%    passed     99.96%
+  29  AEX25782.1          53.93%    passed     99.96%
+  30  WP_039800831.1      53.93%    passed     99.99%
+  31  WP_090619181.1      53.84%    passed    100.00%
+  32  WP_090349185.1      53.84%    passed    100.00%
+  33  WP_090444292.1      53.84%    passed     99.95%
+  34  WP_090313068.1      53.84%    passed     99.93%
+  35  Q44045.1            54.21%    passed    100.00%
+  36  WP_011912505.1      53.84%    passed    100.00%
+  37  WP_028240787.1      53.84%    passed    100.00%
+  38  WP_065835948.1      53.84%    passed     99.99%
+  39  ION                 40.64%    passed     99.98%
+  40  PSE                 45.41%    passed     99.99%
+  41  PON                 40.64%    passed     99.98%
+  42  WP_044616593.1      53.84%    passed     99.99%
+  43  ANW                 55.81%    passed     99.49%
+  44  WP_075185653.1      53.84%    passed     84.07%
+  45  WP_069958444.1      54.03%    passed     99.98%
+  46  WP_012728879.1      54.87%    passed    100.00%
+  47  OIO53743.1          53.93%    passed    100.00%
+  48  WP_028996169.1      54.12%    passed     99.94%
+  49  WP_012954003.1      55.06%    passed     98.78%
+  50  ASW                 13.39%    passed     95.62%
+  51  KFF41298.1          55.06%    passed     99.51%
+  52  WP_008274043.1      55.06%    passed     99.26%
+  53  BAF47152.1          55.06%    passed     98.00%
+  54  WP_007305801.1      55.24%    passed     99.95%
+  55  AAW57050.1          55.24%    passed     99.89%
+  56  WP_012595105.1      55.43%    passed     99.93%
+  57  AAA64844.1          55.43%    passed     99.89%
+  58  WP_013323682.1      55.43%    passed     99.14%
+  59  MED                 62.27%    passed     13.95%
+WARNING: 31 sequences contain more than 50% gaps/ambiguity
+****  TOTAL               50.29%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: PON is identical to ION but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.017 seconds
+NOTE: ModelFinder requires 86 MB RAM!
+ModelFinder will test 26 protein models (sample size: 1068) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 36 CPU cores
+Increase to 10 rounds for branch lengths
+222 trees examined
+Threads: 1 / Time: 36.071 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -41661
+Threads: 2 / Time: 37.240 sec / Speedup: 0.969 / Efficiency: 48% / LogL: -41661
+BEST NUMBER OF THREADS: 1
+
+  1  WAG           22380.832    115 44991.663    45019.689    45563.621
+  2  WAG+I         22283.965    116 44799.931    44828.473    45376.862
+  3  WAG+G4        21401.211    116 43034.421    43062.964    43611.352
+  4  WAG+I+G4      21400.200    117 43034.400    43063.465    43616.304
+  5  WAG+R2        21530.660    117 43295.319    43324.384    43877.224
+  6  WAG+R3        21415.096    119 43068.191    43098.318    43660.043
+  7  WAG+R4        21398.164    121 43038.329    43069.538    43640.127
+  8  WAG+R5        21394.665    123 43035.329    43067.643    43647.075
+ 14  WAG+F         22368.792    134 45005.585    45044.363    45672.039
+ 15  WAG+F+I       22269.471    135 44808.942    44848.341    45480.371
+ 16  WAG+F+G4      21382.828    135 43035.656    43075.055    43707.084
+ 17  WAG+F+I+G4    21382.958    136 43037.917    43077.942    43714.318
+ 18  WAG+F+R2      21521.816    136 43315.633    43355.659    43992.035
+ 19  WAG+F+R3      21399.207    138 43074.415    43115.711    43760.764
+ 20  WAG+F+R4      21381.672    140 43043.344    43085.933    43739.640
+ 21  WAG+F+R5      21380.028    142 43044.057    43087.962    43750.300
+Akaike Information Criterion:           WAG+I+G4
+Corrected Akaike Information Criterion: WAG+G4
+Bayesian Information Criterion:         WAG+G4
+Best-fit model: WAG+G4 chosen according to BIC
+
+All model information printed to output_clustalw_align_nifD_seqs.model.gz
+CPU time for ModelFinder: 133.101 seconds (0h:2m:13s)
+Wall-clock time for ModelFinder: 95.299 seconds (0h:1m:35s)
+Generating 1000 samples for ultrafast bootstrap (seed: 190953)...
+
+NOTE: 36 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 36 CPU cores
+Increase to 10 rounds for branch lengths
+54 trees examined
+Threads: 1 / Time: 36.271 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -38482
+Threads: 2 / Time: 19.798 sec / Speedup: 1.832 / Efficiency: 92% / LogL: -38482
+Threads: 3 / Time: 14.521 sec / Speedup: 2.498 / Efficiency: 83% / LogL: -38482
+Threads: 4 / Time: 12.379 sec / Speedup: 2.930 / Efficiency: 73% / LogL: -38482
+Threads: 5 / Time: 10.824 sec / Speedup: 3.351 / Efficiency: 67% / LogL: -38482
+Threads: 6 / Time: 9.938 sec / Speedup: 3.650 / Efficiency: 61% / LogL: -38482
+Threads: 7 / Time: 9.354 sec / Speedup: 3.878 / Efficiency: 55% / LogL: -38482
+Threads: 8 / Time: 9.124 sec / Speedup: 3.975 / Efficiency: 50% / LogL: -38482
+BEST NUMBER OF THREADS: 7
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -21404.902
+2. Current log-likelihood: -21401.387
+3. Current log-likelihood: -21401.210
+Optimal log-likelihood: -21401.209
+Gamma shape alpha: 0.891
+Parameters optimization took 3 rounds (0.188 sec)
+Computing ML distances based on estimated model parameters... 1.016 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -21458.068
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.771 second
+Computing log-likelihood of 98 initial trees ... 4.153 seconds
+Current best score: -21387.641
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21381.217
+Iteration 10 / LogL: -21382.422 / Time: 0h:2m:10s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -21378.129
+Iteration 20 / LogL: -21382.286 / Time: 0h:2m:13s
+Finish initializing candidate tree set (18)
+Current best tree score: -21378.129 / CPU time: 10.900
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -21377.103
+Iteration 30 / LogL: -21377.103 / Time: 0h:2m:18s (0h:7m:57s left)
+Iteration 40 / LogL: -21421.850 / Time: 0h:2m:23s (0h:5m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -21376.826
+Iteration 50 / LogL: -21378.884 / Time: 0h:2m:27s (0h:4m:55s left)
+Log-likelihood cutoff on original alignment: -21432.484
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -21376.727
+Iteration 60 / LogL: -21377.889 / Time: 0h:2m:32s (0h:3m:47s left)
+Iteration 70 / LogL: -21377.169 / Time: 0h:2m:37s (0h:2m:58s left)
+Iteration 80 / LogL: -21382.005 / Time: 0h:2m:42s (0h:2m:20s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -21376.653
+Iteration 90 / LogL: -21377.603 / Time: 0h:2m:47s (0h:1m:49s left)
+Iteration 100 / LogL: -21377.425 / Time: 0h:2m:52s (0h:1m:23s left)
+Log-likelihood cutoff on original alignment: -21420.563
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -21381.131 / Time: 0h:2m:57s (0h:2m:26s left)
+Iteration 120 / LogL: -21379.754 / Time: 0h:3m:1s (0h:2m:2s left)
+Iteration 130 / LogL: -21379.231 / Time: 0h:3m:6s (0h:1m:41s left)
+Iteration 140 / LogL: -21376.993 / Time: 0h:3m:11s (0h:1m:22s left)
+TREE SEARCH COMPLETED AFTER 149 ITERATIONS / Time: 0h:3m:15s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21376.653
+Optimal log-likelihood: -21376.648
+Gamma shape alpha: 0.895
+Parameters optimization took 1 rounds (0.046 sec)
+BEST SCORE FOUND : -21376.648
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.244 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file output_clustalw_align_nifD_seqs.splits.nex
+Total tree length: 21.311
+
+Total number of iterations: 149
+CPU time used for tree search: 493.908 sec (0h:8m:13s)
+Wall-clock time used for tree search: 72.576 sec (0h:1m:12s)
+Total CPU time used: 919.120 sec (0h:15m:19s)
+Total wall-clock time used: 195.719 sec (0h:3m:15s)
+
+Computing bootstrap consensus tree...
+Reading input file output_clustalw_align_nifD_seqs.splits.nex...
+59 taxa and 340 splits.
+Consensus tree written to output_clustalw_align_nifD_seqs.contree
+Reading input trees file output_clustalw_align_nifD_seqs.contree
+Log-likelihood of consensus tree: -21378.701
+
+Analysis results written to: 
+  IQ-TREE report:                output_clustalw_align_nifD_seqs.iqtree
+  Maximum-likelihood tree:       output_clustalw_align_nifD_seqs.treefile
+  Likelihood distances:          output_clustalw_align_nifD_seqs.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          output_clustalw_align_nifD_seqs.splits.nex
+  Consensus tree:                output_clustalw_align_nifD_seqs.contree
+  Screen log file:               output_clustalw_align_nifD_seqs.log
+
+Date and Time: Mon Dec  2 14:52:51 2019

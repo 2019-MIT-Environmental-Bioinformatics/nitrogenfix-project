@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 12/04/2019 16:37:20
+New DB name:   /nobackup1c/users/skoog/transfer4/RED.fa
+New DB title:  RED.fa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /nobackup1c/users/skoog/transfer4/RED.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 32656 sequences in 6.99531 seconds.

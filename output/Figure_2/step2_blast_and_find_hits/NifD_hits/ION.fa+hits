@@ -1,0 +1,273 @@
+TBLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ION.fa
+           22,703 sequences; 164,499,483 total letters
+
+
+
+Query= WP_013323682.1 nitrogenase molybdenum-iron protein alpha chain
+[Gloeothece verrucosa]
+
+Length=476
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  c_000000000898                                                      741     0.0  
+  c_000000000917                                                      240     1e-68
+  c_000000000257                                                      35.8    0.35 
+  c_000000001265                                                      33.5    2.1  
+  c_000000000824                                                      28.5    2.1  
+  c_000000002041                                                      32.3    4.3  
+  c_000000003585                                                      32.0    4.9  
+  c_000000000166                                                      32.0    5.7  
+  c_000000018952                                                      31.2    8.4  
+
+
+> c_000000000898
+Length=100361
+
+ Score = 741 bits (1912),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 351/475 (74%), Positives = 399/475 (84%), Gaps = 3/475 (1%)
+ Frame = -3
+
+Query  5      EDRKQLIQEVLDEYPEKLAKKRAKHL--NVYEEGKSDCGVKSNIKSAPGVMTARGCAYAG  62
+              ++ + LIQEVL+ YPEK  K RAKHL  N  E  +S   + SN KS PGVMT RGCAYAG
+Sbjct  24456  DEVESLIQEVLEVYPEKAQKNRAKHLTPNDPELEQSKKCITSNKKSLPGVMTIRGCAYAG  24277
+
+Query  63     SKGVVWGPIKDMIHISHGPVGCGYYSWSGRRNYYIGTTGVDTFGTMNFTSDFQERDIVFG  122
+              SKGVVWGPIKDMIHISHGPVGCG YS +GRRNYYIGTTGV+TF TMNFTSDFQE+DIVFG
+Sbjct  24276  SKGVVWGPIKDMIHISHGPVGCGQYSRAGRRNYYIGTTGVNTFVTMNFTSDFQEKDIVFG  24097
+
+Query  123    GDKKLTKIMTEIETLFPLNNGVSIQSECPIGLIGDDIEAVARKASKDTGKPVVPVRCEGF  182
+              GDKKL K++ EIETLFPLN G+SIQSECPIGLIGDDIEAVA++   +  K +VPVRCEGF
+Sbjct  24096  GDKKLAKLIDEIETLFPLNKGISIQSECPIGLIGDDIEAVAKQKGAEHSKTIVPVRCEGF  23917
+
+Query  183    RGVSQSLGHHIANDAVRDWVF-SRTDAEEIETTPYDVAIIGDYNIGGDAWSSRILLEEMG  241
+              RGVSQSLGHHIANDAVRDW   +R D    ETTPYDVAIIGDYNIGGDAWSSRILLEEMG
+Sbjct  23916  RGVSQSLGHHIANDAVRDWTLGARDDDNSFETTPYDVAIIGDYNIGGDAWSSRILLEEMG  23737
+
+Query  242    LRVVAQWSGDGTINEMMQTPKVKLNLIHCYRSMNYISRHMEEKYGIPWFEYNFFGPTKIA  301
+              LRVVAQWSGDG+I EM  TPKVKLNL+HCYRSMNYISRHMEEKY IPW EYNFFGPTK  
+Sbjct  23736  LRVVAQWSGDGSIAEMELTPKVKLNLVHCYRSMNYISRHMEEKYKIPWMEYNFFGPTKTI  23557
+
+Query  302    ASLRAIADLFDDTIRENAEKVIAKYQKQTQDVLDKYLSRLQGKKVMLMVGGLRPRHVVPA  361
+               SLR IA  FD++I++  E+VIAKYQ + + V+ KY  RL+GK+VML +GGLRPRHV+ A
+Sbjct  23556  ESLRKIAAQFDESIQQKCEEVIAKYQPEWEAVVAKYRPRLEGKRVMLYIGGLRPRHVIGA  23377
+
+Query  362    FRDLGMEIIGTGYEFAHGDDYKRTTDYIEDATLVYDDVTAYEFEKFVTELKPDLVASGVK  421
+              + DLGME++GTGYEF H DDY RT   + D+TL+YDDVT YEFE+FV ++KPDL+ SG+K
+Sbjct  23376  YEDLGMEVVGTGYEFGHNDDYDRTLKEMGDSTLLYDDVTGYEFEEFVKKVKPDLIGSGIK  23197
+
+Query  422    EKYVFQKMGLPFRQMHSWDYSGPYHGYDGFAIFAKDMDLALNNPTWGLIKTPWKK  476
+              EKY+FQKMG+PFRQMHSWDYSGPYHG+DGFAIFAKDMD+ LNNP W ++  PWKK
+Sbjct  23196  EKYIFQKMGVPFRQMHSWDYSGPYHGFDGFAIFAKDMDMTLNNPCWKVLTAPWKK  23032
+
+
+ Score = 35.4 bits (80),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 39/169 (23%), Positives = 68/169 (40%), Gaps = 21/169 (12%)
+ Frame = -3
+
+Query  16     DEYPEKLAKKRAKHLNVYEEGKSDCGV---------KSNI-KSAPGVMTARGCAYAGSKG  65
+              DEY + LAKK+A     + + K D            + N  + A  V  A+ C   G+  
+Sbjct  22839  DEYKDMLAKKKADFEEAHPQDKIDETFLWTTSEEYKELNFQREALTVNPAKACQPLGAVL  22660
+
+Query  66     VVWGPIKDMIHISHGPVGC-GYYSWSGRRNYYIGTTGVDTFGTMNFTSDFQERDIVFGGD  124
+                 G  K M ++ HG  GC  Y+     R++      V        +    E   VFGG 
+Sbjct  22659  CSLGFEKTMPYV-HGSQGCVAYFRTYFNRHFKEPIACV--------SDSMTEDAAVFGGQ  22507
+
+Query  125    KKLTKIMTEIETLFPLNNGVSIQSECPIGLIGDDIEAVARKASKDTGKP  173
+              + +   +   + ++   + +++ + C   +IGDD+ A    + K+   P
+Sbjct  22506  QNMKDGLENCKAIYK-PDMIAVSTTCMAEVIGDDLNAFINNSKKEGHVP  22363
+
+
+> c_000000000917
+Length=28688
+
+ Score = 240 bits (613),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 142/447 (32%), Positives = 238/447 (53%), Gaps = 25/447 (6%)
+ Frame = +3
+
+Query  37    KSDCGVKSNIKSAPGVMTARGCAYAGSKGVVWGPIKDMIHISHGPVGCGYYSWSGRRNYY  96
+             KS C      K  PG  TA GCA+ G++ +   PI D+ HI HGP+ C   SW  R    
+Sbjct  2004  KSGCA-----KPKPG-STAGGCAFDGAQ-IALLPIADVAHIVHGPIACAGSSWDNRGTRS  2162
+
+Query  97    IGTTGVDTFGTMNFTSDFQERDIVFG-GDKKL-TKIMTEIETLFPLNNGVSIQSECPIGL  154
+              G T       +  T+D  E+D++ G G+K+L   I   +E+  P    V + + C   L
+Sbjct  2163  SGPT----LYRIGMTTDLTEQDVIMGRGEKRLFHSIKQAVESYNP--PAVFVYNTCVPAL  2324
+
+Query  155   IGDDIEAVARKASKDTGKPVVPVRCEGFRGVSQSLGHHIANDAVRDWVFSRTDAEEIETT  214
+             IGDD++AV + A +  G PVVPV   GF G +++LG+ IA +A+  +V    + + +  +
+Sbjct  2325  IGDDVDAVCKAAEERWGVPVVPVDAAGFYG-TKNLGNRIAGEAMVKYVIGTAEPQPVAES  2501
+
+Query  215   P-------YDVAIIGDYNIGGDAWSSRILLEEMGLRVVAQWSGDGTINEMMQTPKVKLNL  267
+                     +DV +IG+YNI G+ W    LL+E+G+RV+   SGD    E+    + ++N+
+Sbjct  2502  VQRPGIKVHDVNLIGEYNIAGEFWYVLPLLDELGIRVLCTLSGDARFEEVQTMHRAEVNM  2681
+
+Query  268   IHCYRSMNYISRHMEEKYGIPWFEYNFFGPTKIAASLRAIADLF-DDTIRENAEKVIAKY  326
+             + C ++M  ++R ++E++G PWFE +F+G T  + +LR  A L  DD +    E +I + 
+Sbjct  2682  MVCSKAMLNVARKLQERFGTPWFEGSFYGITDTSQALRDFARLIGDDDLTARTEALIGRE  2861
+
+Query  327   QKQTQDVLDKYLSRLQGKKVMLMVGGLRPRHVVPAFRDLGMEIIGTGYEFAHGDDYKRTT  386
+             +K+ +  L+ + +RLQ K+V+L  GG++   V+ A +DLGM+++ TG   +  +D  R  
+Sbjct  2862  EKRIRAALEPWRARLQDKRVLLYTGGVKSWSVISALQDLGMKVVATGTNKSTEEDKARIR  3041
+
+Query  387   DYIEDATLVYDDVTAYEFEKFVTELKPDLVASGVKEKYVFQKMGLPFRQMHSWDYSGPYH  446
+             + + D   + +D +       V E   D++ +G +  Y   K  +PF  ++     G Y 
+Sbjct  3042  ELMGDDVKMQEDGSPKALLNTVKEYNADILIAGGRNMYTALKARVPFLDINQEREFG-YA  3218
+
+Query  447   GYDGFAIFAKDMDLALNNPTWGLIKTP  473
+             GYDG     + + L + +P W  ++ P
+Sbjct  3219  GYDGMLELVRQLALTMESPVWEQVRRP  3299
+
+
+> c_000000000257
+Length=167074
+
+ Score = 35.8 bits (81),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 30/97 (31%), Positives = 47/97 (48%), Gaps = 9/97 (9%)
+ Frame = +3
+
+Query  361    AFRDLGMEIIGTG-YEFAHGDDYKRTT-DYIEDATLVYDDVTAYEFEKFVTELKPDLVAS  418
+              A  +LG E++G G Y        ++   DY  +A L+ D+    E EK V EL+P+LV  
+Sbjct  51855  AREELGFEVVGLGTYSREQARAVRKAAKDYGLEA-LITDNY--LEVEKAVAELQPELVLG  52025
+
+Query  419    GVKEKYVFQKMGLPFRQM----HSWDYSGPYHGYDGF  451
+                 E+++ +K+G+    +    H  DY   Y    GF
+Sbjct  52026  TQMERHIAKKLGIGCAVISTPAHVQDYPARYSPQMGF  52136
+
+
+> c_000000001265
+Length=90082
+
+ Score = 33.5 bits (75),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 31/125 (25%), Positives = 54/125 (43%), Gaps = 24/125 (19%)
+ Frame = -1
+
+Query  311    FDDTIRENAEKVIAKYQKQTQD------------VLDKYLSRLQGKKVMLMVGGLR--PR  356
+              +DDTI    + V A+ ++                VL+  L+R+  +  +++ GG+    +
+Sbjct  37891  YDDTIDYKNDNVKARLKELASGGINVFFDNVGGPVLNDVLARIAPRARIIICGGISRYEQ  37712
+
+Query  357    HVVPA---------FRDLGME-IIGTGYEFAHGDDYKRTTDYIEDATLVYDDVTAYEFEK  406
+                +PA         FR   +E  + +GYE  + +  +R T +I D  LVY +     FE 
+Sbjct  37711  ETLPAGPANYFNVVFRQARIEGFLLSGYEREYPEAIERMTQWISDGRLVYREDVQEGFEN  37532
+
+Query  407    FVTEL  411
+                T L
+Sbjct  37531  IPTTL  37517
+
+
+> c_000000000824
+Length=23951
+
+ Score = 28.5 bits (62),  Expect(2) = 2.1, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 23/38 (61%), Gaps = 3/38 (8%)
+ Frame = +1
+
+Query  45    NIKSAPGVMTARGCAYAGSKGVVWGPIKDMIHISHGPV  82
+             N+K +PGV+   GC   G   +++ PI D++  S+ P+
+Sbjct  5326  NLKQSPGVINEFGCCSLGK--LIFNPI-DLLSSSNAPL  5430
+
+
+ Score = 23.1 bits (48),  Expect(2) = 2.1, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 12/23 (52%), Gaps = 0/23 (0%)
+ Frame = +3
+
+Query  75    IHISHGPVGCGYYSWSGRRNYYI  97
+             I I    V C + SW+   NYYI
+Sbjct  5409  ILIKCSSVSCLHNSWTSTSNYYI  5477
+
+
+> c_000000002041
+Length=11168
+
+ Score = 32.3 bits (72),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 35/143 (24%), Positives = 62/143 (43%), Gaps = 9/143 (6%)
+ Frame = +1
+
+Query  263   VKLNLIHCYRSMNYISRHMEE-KYGIPWFEYNFFGPTKIAASLRAIADLFDDTIR-ENAE  320
+             V +N ++ +  M  + R M   ++ I    +    P    A+LRA ADLF D       E
+Sbjct  4483  VMINALNGF--MARLDRQMNSMRHLISDTAHQLRTPV---AALRAQADLFTDEAELSRKE  4647
+
+Query  321   KVIAKYQKQTQDVLDKYLSRLQGKKVMLMVGGLRPRHVVPAFRDLGMEIIGTGYEFAHGD  380
+             K++ + Q +T   L + L +L  + +++  G    R  V   RD+ +++   G       
+Sbjct  4648  KIVERIQTRTAS-LGRLLDQLLSQALVIHRGDSARREKVD-LRDIALDVFEEGDHAVLNP  4821
+
+Query  381   DYKRTTDYIEDATLVYDDVTAYE  403
+             ++    D  ED   V  DV + +
+Sbjct  4822  EFDVILDIGEDPVEVLADVQSLK  4890
+
+
+> c_000000003585
+Length=6897
+
+ Score = 32.0 bits (71),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 24/89 (27%), Positives = 39/89 (44%), Gaps = 7/89 (8%)
+ Frame = +1
+
+Query  340   RLQGKKVMLMVGGLRPRHVVPAFRDLGMEI------IGTGYEFAHGDDYKRTTDYIEDAT  393
+             +L G +VM  +G L      P    + +++      I    E  HG DY+    YI D +
+Sbjct  4192  QLIGIEVMARIGLLEEEQYAPQDLLVSLDLSYDFGDIKETDEITHGIDYRDLISYIRDFS  4371
+
+Query  394   LVYDDVTAYEFEKFV-TELKPDLVASGVK  421
+               YD  T  +F   + TE+K +   + V+
+Sbjct  4372  TAYDGKTLEKFAHLLATEIKQNFPVTKVR  4458
+
+
+> c_000000000166
+Length=19756
+
+ Score = 32.0 bits (71),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+ Frame = -2
+
+Query  67     VWGPIKDMIHISHGPVGCGYYSWSGRRNYY  96
+              VW P  + +H+  GPV  G   WS RR+ +
+Sbjct  13917  VWAPHVEGVHLRFGPVARGGLRWSDRRDDF  13828
+
+
+> c_000000018952
+Length=2844
+
+ Score = 31.2 bits (69),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 16/66 (24%), Positives = 32/66 (48%), Gaps = 1/66 (2%)
+ Frame = -1
+
+Query  198  VRDWVFSRTDAE-EIETTPYDVAIIGDYNIGGDAWSSRILLEEMGLRVVAQWSGDGTINE  256
+            +R W+F    +E + E    DV ++  ++I  D WS  ++L+E+G       +    + +
+Sbjct  564  LRSWIFQDCVSEGKGEARRSDVFLLTAHHIAMDGWSMEVILKELGQLYAQSRAVKSNVKD  385
+
+Query  257  MMQTPK  262
+              + PK
+Sbjct  384  FSELPK  367
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18852256076
+
+
+  Database: ION.fa
+    Posted date:  Dec 2, 2019  2:20 AM
+  Number of letters in database: 164,499,483
+  Number of sequences in database:  22,703
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

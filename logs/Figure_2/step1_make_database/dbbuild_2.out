@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 12/04/2019 16:37:20
+New DB name:   /nobackup1c/users/skoog/transfer4/ANW.fa
+New DB title:  ANW.fa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /nobackup1c/users/skoog/transfer4/ANW.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 28926 sequences in 5.08317 seconds.
